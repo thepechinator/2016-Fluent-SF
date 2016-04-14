@@ -1,0 +1,29 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  <h5 class="text-normal">Helping your code take flight with the right
+  abstractions</h5>
+
+  <ul>
+    <li class="text-normal slide">
+      by Dave King (CEO of Exaptive)
+    </li>
+
+    <li class="text-normal slide">
+      Modularity vs combinatorial
+    </li>
+
+    <li class="text-normal slide">
+      Loosely coupled inputs and outputs
+    </li>
+  </ul>
+
+  <ul class="slide">
+    <span class="text-small">link:</span>
+    <li class="text-small">
+      <a href="http://www.exaptive.com/blog/finding-abstractions-that-give-data-applications-flight" target="_blank">
+        http://www.exaptive.com/blog/finding-abstractions-that-give-data-applications-flight
+      </a>
+    </li>
+  </ul>
+{% endblock %}

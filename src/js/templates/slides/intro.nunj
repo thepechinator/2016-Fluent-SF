@@ -1,0 +1,29 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  {# TODO: special effects or something #}
+  <div class="intro">
+    <div class="intro-content">
+      <div class="text-normal js-es6">
+        Fluent SF: 2016 - Main Takeaways and Summary
+      </div>
+      <br/>
+      <div>
+        <span style="font-size: 48px;">By</span>
+        <a style="font-size: 52px;" href="https://www.linkedin.com/in/thepechinator"
+          target="_blank">
+          Paul Pechin
+        </a>
+        {# <div class="usnews-logo">
+          <a href="http://www.usnews.com" target="_blank">
+            <img class="usnews-image" src="http://www.usnews.com/static/images/homepage-logo-292x70.png">
+          </a>
+        </div> #}
+      </div>
+      <br/>
+      <div class="text-small">
+        Navigate with arrow keys or quick jump using menu in top left corner.
+      </div>
+    </div>
+  </div>
+{% endblock %}

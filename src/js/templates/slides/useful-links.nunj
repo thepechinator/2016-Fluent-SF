@@ -1,0 +1,23 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  <h5>Useful Links</h5>
+
+  <ul class="slide">
+    <li class="text-normal">
+      <a href="http://conferences.oreilly.com/fluent/javascript-html-us" target="_blank">
+        Fluent site
+      </a>
+    </li>
+    <li class="text-normal">
+      <a href="http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/proceedings" target="_blank">
+        Speaker Slides
+      </a>
+    </li>
+    <li class="text-normal">
+      <a href="https://www.oreilly.com/ideas/keynotes-from-oreilly-fluent-conference-san-francisco-2016" target="_blank">
+        Keynotes
+      </a>
+    </li>
+  </ul>
+{% endblock %}

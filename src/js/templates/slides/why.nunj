@@ -1,0 +1,19 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  <h5>Why go</h5>
+
+  <ul>
+    <li class="text-normal slide">
+      Gather intel
+    </li>
+
+    <li class="text-normal slide">
+      Learn
+    </li>
+
+    <li class="text-normal slide">
+      Food
+    </li>
+  </ul>
+{% endblock %}

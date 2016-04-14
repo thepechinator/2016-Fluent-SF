@@ -1,0 +1,17 @@
+<div class="slides">
+{% include './slides/intro.nunj' %}
+{% include './slides/what-is-it.nunj' %}
+{% include './slides/why.nunj' %}
+{% include './slides/roadmap.nunj' %}
+{% include './slides/wasm.nunj' %}
+{% include './slides/seif.nunj' %}
+{% include './slides/monolith.nunj' %}
+{% include './slides/abstractions.nunj' %}
+{% include './slides/uber.nunj' %}
+{% include './slides/observables.nunj' %}
+{% include './slides/styleguide.nunj' %}
+{% include './slides/kyle-simpson.nunj' %}
+{% include './slides/svg.nunj' %}
+{% include './slides/takeaways.nunj' %}
+{% include './slides/useful-links.nunj' %}
+</div>

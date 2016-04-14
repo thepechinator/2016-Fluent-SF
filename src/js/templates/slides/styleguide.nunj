@@ -1,0 +1,32 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  <h5>Living style guides: Make looking good easy</h5>
+
+  <ul>
+    <li class="text-normal slide">
+      by Shane Russell (Thoughtworks)
+    </li>
+
+    <li class="text-normal slide">
+      Intro to a styleguide
+    </li>
+
+    <li class="text-normal slide">
+      SASS best practices
+    </li>
+
+    <li class="text-normal slide">
+      Challenges
+    </li>
+  </ul>
+
+  <ul class="slide">
+    <span class="text-small">link:</span>
+    <li class="text-small">
+      <a href="http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/detail/46678" target="_blank">
+        http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/detail/46678
+      </a>
+    </li>
+  </ul>
+{% endblock %}

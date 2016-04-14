@@ -1,0 +1,27 @@
+{% extends './_layout.nunj' %}
+
+{% block content %}
+  <h5 class="text-normal">Takeaways</h5>
+
+  <ul>
+    <li class="text-normal slide">
+      Service Workers
+    </li>
+
+    <li class="text-normal slide">
+      Angular 2
+    </li>
+
+    <li class="text-normal slide">
+      ES6 and beyond
+    </li>
+
+    <li class="text-normal slide">
+      Promises and Observables
+    </li>
+
+    <li class="text-normal slide">
+      Styleguides
+    </li>
+  </ul>
+{% endblock %}

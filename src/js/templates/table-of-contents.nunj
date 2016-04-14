@@ -1,0 +1,119 @@
+<ul>
+  {#
+- Intro
+- The conference is an HTML, CSS, JavaScript dev conference
+  - Took place in beginning of March in SF
+- Formatted as 5-6 different talks every 45 minutes throughout the day.
+Go to whatever talks you want to go. Each talk roughly 30 minutes.
+
+- Useful links:
+  - Speaker slides : http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/proceedings
+
+- Brendan Eich (creator of JavaScript): WebAssembly (wasm) .. think of it
+like being able to compile any other language into code to be run in the
+browser. Still underway. Closest thing right now is asm.js .
+link: https://www.oreilly.com/ideas/brendan-eich-javascript-fluent-2016
+
+- Douglas Crockford (author of JavaScript: The Good Parts), creator of JSLint
+and jsmin, spreaded JSON's adoption, works for Paypal - Project Seif. Replacement for HTTP. Admits
+starts off insecure, just like HTTP, but as people discover vulnerabilities
+and fix them, it will become more secure.
+- document delivery system
+- go to application delivery system, safer and easier to use and develop for
+- link: https://www.oreilly.com/ideas/the-seif-project
+
+- Laurie Voss (CTO of npm, Inc) How npm split a monolith and lived to tell the tale
+  - Gall's Law
+  - Even if your program is one giant mess, pinpoint the areas that
+  could be considered modular and abstract those out, refactor bit by bit.
+  - This approach worked for them, as they pushed one module out to live,
+  and it wasn't noticed by the community.
+link: https://www.oreilly.com/ideas/how-npm-split-a-monolith-and-lived-to-tell-the-tale
+
+- Laura Palmaro (Google) : Quality, equality, and accessibility
+link: https://www.oreilly.com/ideas/quality-equality-and-accessibility
+
+- Dave King (CEO of Exaptive) : Helping your code take flight with the right
+abstractions
+
+- Modularity vs combinatorial
+- Just because something is modular doesn't make it combinatorial.
+- Being modular means breaking your code down to specific parts that perform
+a certain thing.
+
+But you can take it a step further by making it combinatorial by loosely coupling
+the inputs and outputs.
+
+The advantage is you can have two people work on two modular components that don't
+necessarily know about each other and not sync what properties map to what input
+values. You can have this field mapping logic that takes in input, and allows you
+to indicate from that input what properties you want mapped to the things processed
+by that modular component
+
+This is done by adding an additional layer of abstraction, like say an adapter,
+that translates output from one modular part of your system to certain things
+
+link: http://www.exaptive.com/blog/finding-abstractions-that-give-data-applications-flight
+
+- Uber talk on how they upkeep their application
+- Their system is built on NodeJS
+- They have 100% code testing coverage. The best way to achieve
+that is to never let it fall below 100% in the first place
+link: http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/detail/46739
+
+- Brian Holt (Netflix) : Promise to not use Promises: Observables in ES7
+
+- Observables and RxJS
+- From what I've read so far, Observables are like streams of data,
+which you can cancel while its processing or retry the behavior it
+wraps around. It's like a feed you can subscribe to.
+- Has outlawed and eliminated use of Promises in all of Netflix's code
+link: http://conferences.oreilly.com/fluent/javascript-html-us/public/schedule/detail/46600
+
+- Styleguide talk (from ThoughtWorks, not to be confused with thoughtbot)
+
+- Only mentioning it b/c it relates to a similar talk Will and I
+want to give hopefully next year
+- Basic styleguide talk. Went over introductory concepts and some
+SASS best practices. Also went over problem areas.
+- Attended mainly to gather intel and see crowd's reaction
+
+- Sarah Drasner (Trulia, Inc. (Zillow)) : Complex SVG animations with Greensock (GSAP)
+- How to make SVGs responsive
+- Elements inside svgs can be controlled with css
+- Just a damn cool presentation
+- link: http://slides.com/sdrasner/fluent-session#/
+
+- Kyle Simpson
+
+  #}
+
+  {% set sections = [
+    ['What is it?', 12],
+    ['Basics', 16],
+    ['Let', 19],
+    ['Const', 23],
+    ['Template strings', 28],
+    ['Arrow functions', 32],
+    ['Enhanced object literals', 38],
+    ['Classes', 42],
+    ['Modules', 46],
+    ['For of', 49],
+    ['Symbols', 59],
+    ['Map, WeakMap', 63],
+    ['Set, WeakSet', 67],
+    ['Generators', 72],
+    ['Spread operator', 75],
+    ['Rest parameters', 78],
+    ['Destructuring', 83],
+    ['Promises', 89],
+    ['Why use ES6', 94],
+    ['More Resources', 96]
+  ] %}
+
+  {% for section in sections %}
+  <li class="text-small">
+    <a href="#slide-{{section[1]}}">{{section[0]}}</a>
+  </li>
+  {% endfor %}
+</ul>
