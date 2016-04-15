@@ -22,10 +22,15 @@
   </ul>
 
   <ul class="slide">
-    <span class="text-small">link:</span>
+    <span class="text-small">links:</span>
     <li class="text-small">
       <a href="http://slides.com/sdrasner/fluent-session#/" target="_blank">
         http://slides.com/sdrasner/fluent-session#/
+      </a>
+    </li>
+    <li class="text-small">
+      <a href="http://codepen.io/sdras/pen/waXKPw" target="_blank">
+        http://codepen.io/sdras/pen/waXKPw
       </a>
     </li>
   </ul>

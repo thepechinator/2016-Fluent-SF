@@ -22,7 +22,8 @@
       </div>
       <br/>
       <div class="text-small">
-        Navigate with arrow keys or quick jump using menu in top left corner.
+        Navigate with arrow keys.
+        {# or quick jump using menu in top left corner. #}
       </div>
     </div>
   </div>
